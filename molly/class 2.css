@@ -1,0 +1,37 @@
+.relative {
+    width: 100%;
+    border: 5px solid black;
+    height: 200px;
+    position: relative;
+    left: 100px;
+}
+
+.absolute {
+    width: 100%;
+    border: 5px solid blue;
+    height: 200px;
+    position: absolute;
+    left: 100px;
+    top: 0px
+}
+
+.sticky {
+    width: 100%;
+    border: 5px solid red;
+    height: 200px;
+    position: sticky;
+    left: 100px;
+    bottom: 0px
+}
+
+.div {
+    width: 100%;
+    border: 5px solid green;
+    height: 200px;
+    left: 100px;
+    top: 0px
+}
+
+body {
+    background-color: #ccc;
+}
